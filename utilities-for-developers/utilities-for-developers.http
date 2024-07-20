@@ -1,0 +1,6 @@
+@utilities_for_developers_HostAddress = http://localhost:5054
+
+GET {{utilities_for_developers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
