@@ -16,5 +16,12 @@ namespace utilities_for_developers.Controllers
             string password = new Generators().GeneratePassword();
             return Ok(password);
         }
+
+        [HttpGet("cpf")]
+        public IActionResult GenerateCPF()
+        {
+            string cpf = new Generators().GenerateCPF();
+            return Ok(cpf);
+        }
     }
 }
